@@ -171,13 +171,13 @@
                            <div class="row">
                               <div class="col-md-5 col-sm-12">
                                  <div class="yo_img">
-                                    <figure><img src="{{ asset('public/images/lutte.png') }}" alt="#"/></figure>
+                                    <figure><img src="{{ asset('public/images/lutte1.png') }}" alt="#"/></figure>
                                  </div>
                               </div>
                               <div class="col-md-7 text">
                                  <div class="yoga_box">
                                     <span>LES DISCIPLINES</span>
-                                    <h1> <strong>LUTTE</strong> TRADITIONNELLE</h1>
+                                    <h1> <strong>LUTTE</strong></h1>
                                     <a class="read_more yoga_btn " href="contact.html" role="button">Voir plus</a>
                                  </div>
                               </div>
