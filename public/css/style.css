@@ -1125,3 +1125,17 @@ ul.social_icon li a:hover {
 .inner_page .blog {
      margin-top: 90px;
 }
+
+
+@media only screen and (max-width: 414px) {
+     .yo_img figure {
+          width: 50%;
+     }
+
+      h1 {
+          font-size: 35px;
+          font-weight: bold;
+          color: #5d14dc;
+          line-height: 80px;
+     }
+}

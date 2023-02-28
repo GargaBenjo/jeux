@@ -55,7 +55,7 @@
         line-height: 103px;
     }
     .yoga_img figure img {
-        height: 406px;
+        height: 40%;
     }
     .titlepage h2 {
         font-size: 31px;
@@ -112,7 +112,7 @@
     }
 
     .yo_img img {
-        display: none;
+        width: 40%;
     }
     #myCarousel .carousel-control-prev,
     #myCarousel .carousel-control-next {
@@ -207,12 +207,20 @@
 }
 
 @media (max-width: 575px) {
+    .full_bg {
+        background: url(../images/fond2.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+   }
       .inner_page .full_bg {
         padding-bottom: 61px;
     }
     .back_re .title h2 {
         font-size: 31px;
     }
+
+    
     .logo a img {
         position: relative;
         z-index: 9999;
@@ -237,17 +245,28 @@
         height: 76px;
         padding: 15px 0px;
     }
+
     .logo {
-        width: 98px;
+        width: 15%;
     }
-    .yo_img img {
+    .yo_img{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .yo_img figure {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text{
         display: none;
     }
+    
     #myCarousel .carousel-control-prev,
     #myCarousel .carousel-control-next {
-        width: 55px;
-        height: 55px;
-        top: 55%;
+        width: 30px;
+        height: 30px;
+        top: 50%;
     }
     .titlepage h2 {
         font-size: 31px;
@@ -285,6 +304,7 @@
     .yoga_box h1 {
         font-size: 71px;
         line-height: 87px;
+        color: red;
     }
     .relative2 {
         padding: 0px 23px 80px 23px;
@@ -356,7 +376,5 @@
         background: url(../images/menu_icon.png);
         background-repeat: no-repeat;
     }
-    .d_none {
-        display: none;
-    }
+    
 }
